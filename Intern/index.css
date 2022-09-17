@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+  background-color: black;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.nav-container{
+box-shadow: 0px 8px 24px;
+background-color:#333;
+height: 70px;
+border-radius: nullpx;
+}
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height:72px;
+}
+nav ul{
+  display: flex;
+}
+nav .logo{
+font-family: Poppins;
+font-style: normal;
+font-weight: 200;
+padding-top: 20px;
+height: 80px;
+font-size:40px;
+background: rgb(26,161,121);
+background: -moz-linear-gradient(90deg, rgba(26,161,121,1) 11%, rgba(219,210,13,1) 91%, rgba(252,186,70,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(26,161,121,1) 11%, rgba(219,210,13,1) 91%, rgba(252,186,70,1) 100%);
+background: linear-gradient(90deg, rgba(26,161,121,1) 11%, rgba(219,210,13,1) 91%, rgba(252,186,70,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1aa179",endColorstr="#fcba46",GradientType=1);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 100px;
+}
+.nav-items li:nth-last-of-type(2){
+  margin: 0;
+}
+.nav-items li a{
+  color:white;
+}
+.nav-items li a:hover{
+  color: gold;
+}
+.nav-items li a .nav-btn-container span{
+  color: gold;
+}
+.b1{
+  padding: 5px;
+}
+.transaction{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 2px 12px;
+  border-radius: 10px;
+  width: 40%;
+  padding:5px;
+  margin-bottom: 30px;
+  background-color: #333;
+  color: #F9F6EE;
+}
+.money{
+  margin: 10px 10px 10px 10px;
+}
+.p1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height:30px;
+}
+.p1 span{
+  display: flex;
+  margin-left: 200px;
+}
+.p1 span:nth-last-child(1){
+  margin-left: 0;
+}
+.p1 span:nth-last-child(2){
+  color:gold;
+}
+.payment-info{
+  background-color:#228B22;
+  border-radius: 10px;
+  height: 25%;
+  margin-top: 20px;
+  display:flex;
+  margin-top: 30px;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 4px;
+}
+.payment-info .inside{
+  display:flex;
+}
+.payment-info .inside span{
+  float:left;
+  font-size: 50px;
+  color:#66FF00;
+}
+.information{
+  border:1px white solid;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.information .from{
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+.information .from .logo1{
+  border: solid #333;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: black;
+  height: 35px;
+  padding:2px;
+  width:35px;
+  align-items: center;
+}
+.information .to{
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  margin-top: 10px;
+}
+.information .to .material-symbols-outlined{
+  color: green;
+  font-size: 30px;
+}
+.others{
+  display:flex;
+}
+.transaction .nav-button{
+  text-align: center;
+}
+.transaction .nav-button button{
+  font-size: 24px;
+  border-radius: 10px;
+  width: 30%;
+  height: 20%;
+  color: white;
+  padding: 2px;
+}
+.transaction .nav-button button:hover{
+  color: #333;
+  background-color: white;
+}
